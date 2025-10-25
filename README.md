@@ -6,7 +6,7 @@ The server acts only as a blind relay for encrypted messages. It cannot read the
 
 ---
 
-## ## Core Technology: Hybrid Encryption
+## Core Technology: Hybrid Encryption
 
 This application uses a **hybrid encryption** scheme to get the best of both worlds: the security of asymmetric (public-key) cryptography and the speed of symmetric cryptography.
 
@@ -17,7 +17,7 @@ This way, long messages are encrypted quickly with AES, and the key to unlock th
 
 ---
 
-## ## Features
+## Features
 
 * **End-to-End Encryption:** Messages are encrypted on the sender's device and decrypted only on the recipient's device.
 * **Real-Time Communication:** Uses WebSockets (via Flask-SocketIO) for instant message delivery.
